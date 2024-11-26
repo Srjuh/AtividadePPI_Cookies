@@ -1,35 +1,23 @@
 {
-  "name": "novoform",
+  "name": "fomulario-login",
   "version": "1.0.0",
-  "description": "Atividade Fomulario igual PDI",
+  "description": "Projeto de formulário de login",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/joaovitorfagundes07/Novoform.git"
-  },
   "keywords": [
     "Node",
     "Express",
-    "Javascript",
-    "Html",
-    "Http",
-    "Post"
+    "JavaScript",
+    "HTML"
   ],
-  "author": "Joao vitor santos de  lima fagundes",
+  "author": "Sergio",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/joaovitorfagundes07/Novoform/issues"
-  },
-  "homepage": "https://github.com/joaovitorfagundes07/Novoform#readme",
   "dependencies": {
-    "cookie-parser": "^1.4.7",
     "express": "^4.21.1",
-    "express-session": "^1.18.1",
-    "novoform": "file:"
+    "cookie-parser": "^1.4.7",
+    "express-session": "^1.18.1"
   }
 }
